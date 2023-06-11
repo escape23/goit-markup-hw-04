@@ -214,13 +214,24 @@ text-decoration: none;
 }
 
 
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    height: 112px;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
 .about-list {
     display: flex;
     gap: 24px;
 }
 
 .about-item {
-   width: calc((100%-72px)/4);
+   width: calc((100% - 72px) / 4);
 }
 
 
@@ -236,9 +247,9 @@ text-decoration: none;
 
 .about-item-text {
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--main-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
 }
 
 /* --------------DOING--------------*/
@@ -279,10 +290,29 @@ text-decoration: none;
 
 .team-container{
     background-color: #F4F4FD;
+    padding: 32px 16px;
 }
 
 
 
+.social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #404BBF;
+    padding: 12px;
+    width: 40px;
+        height: 40px;
+        border-radius: 20px;
+}
+
+
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
 
 .team-title {
     font-weight: 700;
@@ -330,7 +360,27 @@ text-decoration: none;
     color: var(--main-text-color);
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
+
+
+
+/* ==================customers========= */
+
+.customers-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.customers-box{
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    gap: 24px;
+}
+
 
 /*------------------FOOTER--------------*/
 
@@ -445,4 +495,18 @@ text-decoration: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+
+
+.overlay{
+    position: relative;
+    overflow: hidden;
+}
+    
+
+.overlay .text-overlay {
+}
+
+.text-overlay{
 }
